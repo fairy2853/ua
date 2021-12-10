@@ -1,0 +1,67 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	margin: 0px;
+	padding-top:  30px;
+	color: yellow;
+	font-size: 30px;
+	width: 100%;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+
+}
+html{
+	background:black;
+	border: 5px solid ;
+	animation: rainbowt 5s infinite;
+	height: 98vh;
+}
+h2{
+	padding-top: 30px;
+}
+a{
+	background: black;
+	
+	animation: rainbow 3s infinite;
+	font-size: 80px;
+	font-family: 'Press Start 2P', cursive;
+	margin: 30vh;
+	padding: 0px;
+	text-decoration: none;
+
+}
+
+@keyframes rainbow{
+	0% {color: rgb(255,0,0);}
+	25% {color: rgb(127,255,0);}
+	50% {color: rgb(255,127,0);}
+	75% {color: rgb(127,0,255);}
+	100% {color: rgb(255,0,0);}
+}
+.button{
+	width: 100%;
+
+
+
+}
+@keyframes rainbowt{
+	0% {border-color: rgb(255,0,0);}
+	25% {border-color: rgb(127,255,0);}
+	50% {border-color: rgb(255,127,0);}
+	75% {border-color: rgb(127,0,255);}
+	100% {border-color: rgb(255,0,0);}
+}
+.big{
+	border: 5px solid ;
+	animation: rainbowt 6s infinite;
+	height: 96vh;
+	margin: 5px;
+}
+.big2{
+	border: 5px solid ;
+	animation: rainbowt 7s infinite;
+	height: 94vh;
+	margin: 5px;
+}
